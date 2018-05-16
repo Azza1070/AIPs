@@ -17,23 +17,23 @@ AIP Rationale
 
 We intend AIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into live network. Because the AIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
-Also AIPs help with bringing multiple implementation of ADAMANT Messengers to come to common standart with communication and storing data in blockchain.
+Also, AIPs help with bringing multiple implementation of ADAMANT Messengers to come to common standart with communication and storing data in blockchain.
 
-For ADAMANT implementers, AIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the AIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
+For ADAMANT implementers, AIPs are a convenient way to track the progress of their implementation. Ideally, each implementation maintainer would list the AIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
 
 AIP Types
 ---------
 
 There are three types of AIP:
 
--   A **Standard AIP** describes any change that affects most or all ADAMANT implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using ADAMANT. Furthermore Standard AIPs can be broken down into the following categories.
+-   A **Standard AIP** describes any change that affects most or all ADAMANT implementations, such as a change to the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using ADAMANT. Furthermore Standard AIPs can be broken down into the following categories.
     -   **Core** - improvements affecting node features. 
     -   **Networking** - includes improvements around network itself and cross-node communications.
     -   **API** - includes improvements around client API/RPC specifications and standards, and also certain language-level standards. 
     -   **ARC** - (ADAMANT Request for Comments) application-level standards and conventions, including standards such URI schemes, library/package formats, naming restrictions and wallet formats .
 
 -   An **Informational AIP** describes an ADAMANT design issue, or provides general guidelines or information to the community, but does not propose a new feature. Informational AIPs do not necessarily represent  community consensus or a recommendation, so users and implementers are free to ignore Informational AIPs or follow their advice.
--   A **Meta AIP** describes a process surrounding ADAMANT or proposes a change to (or an event in) a process. Meta AIPs focus mostly on social mechanisms and processes, not on tecnical implementation. Technical implementation for Meta AIPs can be made in Standart AIPs.
+-   A **Meta AIP** describes a process surrounding ADAMANT or proposes a change to (or an event in) a process. Meta AIPs focus mostly on social mechanisms and processes, not on technical implementation. Technical implementation for Meta AIPs can be made in Standart AIPs.
 
 AIP Work Flow
 -------------
@@ -44,7 +44,7 @@ The AIP process begins with a new idea for ADAMANT. It is highly recommended tha
 
 Each AIP must have a champion—someone who writes the AIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea.
 
-Vetting an idea publicly before going as far as writing an AIP is meant to save the potential author time. Asking the community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where ADAMANT is used. Examples of appropriate public forums to gauge interest around your AIP include  [the Issues section of this repository]. In particular, [the Issues section of this repository] is an excellent place to discuss your proposal with the community and start creating more formalized language around your AIP.
+Vetting an idea publicly before going as far as writing an AIP is meant to save the potential author time. Asking the community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where ADAMANT is used. Examples of appropriate public forums to gauge interest around your AIP include  [the Issues section of this repository]. In particular, [the Issues section of this repository] is an excellent place to discuss your proposal with the community and start creating more formalized language around your AIP.
 
 Once the champion has asked the Ethereum community whether an idea has any chance of acceptance a draft AIP should be presented as a [pull request].
 
@@ -52,7 +52,7 @@ If the AIP editors approve the AIP ([see the AIP editors workflow section below 
 
 Once the first draft has been merged, you may submit follow-up pull requests with further changes to your draft until such point as you believe the AIP to be mature and ready to proceed to the next phase.
 
-Standards AIPs consist of two parts, a design document and implementation. The AIP should be reviewed and accepted before an implementation is begun, unless an implementation will aid people in studying the AIP. Standards Core AIPs must be implemented in live network before it can be considered Final.
+Standard AIPs consist of two parts, a design document and implementation. The AIP should be reviewed and accepted before an implementation is begun, unless an implementation will aid people in studying the AIP. Standard Core AIPs must be implemented in live network before it can be considered Final.
 
 For an AIP to be accepted it must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
 
@@ -106,7 +106,7 @@ Each AIP should have the following parts:
 
 <!-- -->
 
--   Implementations - The implementations must be completed before any AIP is given status “Final”, but it need not be completed before the AIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of “rough consensus and running code” is still useful when it comes to resolving many discussions of API details.
+-   Implementations - The implementations must be completed before any AIP is given “Final” status, but it need not be completed before the AIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of “rough consensus and running code” is still useful when it comes to resolving many discussions of API details.
 
 <!-- -->
 
@@ -116,7 +116,7 @@ AIP Formats and Templates
 -------------------------
 
 AIPs should be written in [markdown] format.
-Image files should be included in a subdirectory of the `assets` folder for that AIP as follow: `assets/Aip-X` (for Aip **X**). When linking to an image in the AIP, use relative links such as `../assets/aip-X/image.png`.
+Image files should be included in a subdirectory of the `assets` folder for that AIP as follows: `assets/Aip-X` (for Aip **X**). When linking to an image in the AIP, use relative links such as `../assets/aip-X/image.png`.
 
 AIP Header Preamble
 -------------------
@@ -164,7 +164,7 @@ if the email address is not given.
 
 Note: The resolution header is required for Standard AIPs only. It contains a URL that should point to an email message or other web resource where the pronouncement about the AIP is made.
 
-While an AIP is a draft, a discussions-to header will indicate the mailing list or URL where the AIP is being discussed. As mentioned above, examples for places to discuss your AIP include  an issue in this repo or in a fork of this repo. No discussions-to header is necessary if the AIP is being discussed privately with the author.
+While an AIP is a draft, a discussions-to header will indicate the mailing list or URL where the AIP is being discussed. As mentioned above, examples for places to discuss your AIP include an issue in this repo or in a fork of this repo. No discussions-to header is necessary if the AIP is being discussed privately with the author.
 
 The type header specifies the type of AIP: Standard, Meta, or Informational. If the track is Standard please include the subcategory (core, networking, interface, API, or ARC).
 
